@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Our Healthcare Portal</h1>
+        <p>Providing the best healthcare services with highly experienced professionals.</p>
+    </header>
+
+    <!-- Patient Registration Section -->
+    <section id="registration">
+        <h2>Patient Registration</h2>
+        <form id="registrationForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Medical Departments Section -->
+    <section id="departments">
+        <h2>Available Medical Departments</h2>
+        <ul>
+            <li>Cardiology</li>
+            <li>Neurology</li>
+            <li>Orthopedics</li>
+            <li>Pediatrics</li>
+            <li>Gynecology</li>
+        </ul>
+    </section>
+
+    <!-- Doctors List Section -->
+    <section id="doctors">
+        <h2>Highly Experienced Doctors</h2>
+        <div class="doctor-list">
+            <div class="doctor">
+                <h3>Dr. John Doe</h3>
+                <p>Specialty: Cardiology</p>
+                <p>Experience: 15 Years</p>
+            </div>
+            <div class="doctor">
+                <h3>Dr. Sarah Smith</h3>
+                <p>Specialty: Neurology</p>
+                <p>Experience: 10 Years</p>
+            </div>
+            <div class="doctor">
+                <h3>Dr. Emily White</h3>
+                <p>Specialty: Orthopedics</p>
+                <p>Experience: 8 Years</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Healthcare Portal. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
